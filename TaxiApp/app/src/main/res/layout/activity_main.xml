@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FDC53A"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:text="Bienvenido"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:fillViewport="true"
+        android:gravity="top">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#d6d7d7"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/addviaje"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/route">
+
+                </ImageButton>
+
+                <TextView
+                    android:text="Agendar viaje"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#d6d7d7"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/misviajes"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/worldwide">
+
+                </ImageButton>
+
+                <TextView
+                    android:text="Mis viajes"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#d6d7d7"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/cuenta"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/listado">
+
+                </ImageButton>
+
+                <TextView
+                    android:text="Ajuste cuentas"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#d6d7d7"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/acerca"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/info">
+                </ImageButton>
+
+                <TextView
+                    android:text="Acerca de"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#d6d7d7"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/salir"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/exit2">
+
+                </ImageButton>
+
+                <TextView
+                    android:text="Cerrar sesión"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

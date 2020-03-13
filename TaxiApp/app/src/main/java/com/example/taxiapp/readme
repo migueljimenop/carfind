@@ -1,0 +1,26 @@
+
+INFORMACIÓN DE APLICACIÓN CON SERVICIOS WEB
+
+==============================================
+
+Profesor, como grupo dejamos en esta nota que la apliación
+está vinculada con un fragment de Google Maps API, el fin
+de este, es obtener la información de un Viaje para generar
+el registro de estos para luego visualizar un listado y detalles.
+
+Para que se ejecute correctamente la interacción se debe estar
+conectado a internet.
+
+Dejamos los datos de cuentas de la web: https://www.000webhost.com/
+
+==============================================
+
+Cuenta de usuario 000webhosting: migueljimeno.p@gmail.com
+Contraseña 000webhosting: 123456789
+
+DB Name	DB: id11834963_bdtaxiapp
+User: id11834963_admin
+DB Host: localhost
+
+==============================================
+

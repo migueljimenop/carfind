@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FDC53A"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    tools:context=".AcercaActivity">
+
+    <TextView
+        android:id="@+id/tvabout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:text="@string/desarrolladores"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/dev1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@drawable/mariana">
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/namedev1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:text="@string/mariana"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/emadev1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mariana.orellana@inacapmail.cl"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/dev2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@drawable/miguel">
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/namedev2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/miguel"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/emadev2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="miguel.jimeno@inacapmail.cl"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/dev3"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@drawable/jose">
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/namedev3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:text="@string/jose"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/emadev3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="jose.hernandez75@inacapmail.cl"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/btnback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:text="Atrás"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

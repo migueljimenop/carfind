@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TaxiApp</string>
+    <string name="mariana">Mariana Orellana</string>
+    <string name="miguel">Miguel Jimeno</string>
+    <string name="jose">Jose Hernandez</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="viajes_realizados">Viajes realizados</string>
+    <string name="atras">Atrás</string>
+    <string name="mi_cuenta">Mi cuenta</string>
+    <string name="desarrolladores">Desarrolladores TaxiApp</string>
+</resources>
